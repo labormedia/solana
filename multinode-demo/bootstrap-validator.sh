@@ -114,6 +114,7 @@ if [[ $maybeRequireTower = true ]]; then
 fi
 
 args+=(
+  --deepmind
   --ledger "$ledger_dir"
   --rpc-port 8899
   --snapshot-interval-slots 200

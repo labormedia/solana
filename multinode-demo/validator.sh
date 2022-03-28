@@ -7,6 +7,7 @@ here=$(dirname "$0")
 source "$here"/common.sh
 
 args=(
+  --deepmind
   --max-genesis-archive-unpacked-size 1073741824
   --no-poh-speed-test
 )
